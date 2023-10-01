@@ -1,0 +1,126 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  width: 12em;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.phone {
+  margin-left: 60px;
+  display: flex;
+  align-items: end;
+}
+
+.first-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+#features {
+  margin-top: 50px
+}
+
+.feature-button {
+  border: 0;
+  height: 2.25em;
+  border-radius: 8px;
+}
+
+.below-button {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.dog {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.dog-name {
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.logos {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.log {
+  height: 30px;
+}
+
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.card-deck {
+  display: inline;
+}
+
+.card {
+  display: inline;
+}
+
